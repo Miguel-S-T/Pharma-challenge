@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family:'Roboto Condensed', sans-serif;
+}
+.navbar-nav {
+    margin-right: 40px  ;
+}
+
+.nav-link {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin: 8px;
+}
+
+#nav-logo {
+    margin-left: 30px;
+}
+
+.carousel-inner {
+    /* height: 80vh; */
+    width:100%;
+    max-height: 80vh!important;
+    object-fit: contain;
+}
+
+.carousel-inner img {
+    filter: brightness(45%);
+}
+
+.image-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    width: 900px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.5px;
+}
+
+#heading-block-2 {
+    top: 49.8%;
+}
+
+#heading-block-3 {
+    top: 49%;
+}
+
+#get-started-btn-1 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    padding:7px 20px;
+}
+#get-started-btn-1:hover {
+    background-color: transparent;
+    border: 2px solid #969292;
+    color: #969292;
+   
+}
+
+.heading-inside-img {
+    font-size: 52px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-read-more {
+    text-decoration: none!important;
+    color: #969292 !important;
+    border: 2px solid #969292;
+    padding:7px 20px;
+}
+
+.link-read-more:hover {
+    color: white!important;
+    border: 2px solid white;
+ background-color: #969292;
+}
+
+.link-read-p {
+    padding-top: 30px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#services-heading {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: #969292;
+}
+
+.clinical-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: -20px;
+}
+
+.clinical-icon-book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: -1px;
+}
+
+.clinical-icon-random {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: -2px;
+}
+
+.paragraphs {
+    color: #afaeae;
+}
+
+#services-section {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+#icon-spacing-1 {
+    margin:30px;
+}
+
+#icon-spacing-2 {
+    margin:30px;
+}
+
+#icon-spacing-3 {
+    margin:30px;
+}
+
+#software-products {
+    display: flex;
+    /* height: 55vh; */
+    width: 88%;
+    background-color: #F4F4F4;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.clinical-random {
+    color: #67C049;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.clinical-book {
+    color: #67C049;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.card-text {
+    letter-spacing: 0.2px;
+}
+
+.heading-icon {
+ color: #76C748;
+ margin-left: 20px;
+ font-size: 30px;
+}
+
+#mac-desktop {
+    margin: 35px 20px 30px 30px;
+    height: 45vh;
+    width: auto;
+}
+
+#software-text {
+    padding-right: 60px;
+}
+
+#software-text h2 {
+    margin-top: 50px;
+    color: #81abb8;
+}
+
+#software-text p {
+    margin-top: -20px;
+    margin-bottom: 26px;
+    color: #9e9898;
+}
+
+#software-btn-pro {
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border-radius: 0px;
+    padding: 7px 35px;
+}
+
+#software-btn-acce {
+    margin-bottom: 40px;
+    border-radius: 0px;
+    padding: 7px 20px;
+}
+
+.software-products-heading {
+    font-size: 40px !important;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.card {
+    margin: 20px auto;
+}
+
+#avatar-flex {
+    display: flex;
+}
+
+#avatar1 {
+    border-radius: 49%;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.from {
+    color: #81abb8;
+}
+
+#card-avatar {
+    margin-bottom: 60px;
+}
+
+#users-heading {
+    font-size: 48px;
+    text-align: center;
+    margin:40px;
+    color: #969292;
+}
+
+.bottom-section {
+    width: 100%;
+    height: auto;
+    background-color: #232323;
+    color: #CECECE;
+    margin-top: 40px;
+}
+
+.bottom-h5 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#footer-text {
+    margin-left: 35px;
+    letter-spacing: 0.2px;
+    
+}
+
+.pharma-span {
+    margin-left: 15px;
+}
+
+.pharma-address {
+    margin-left: 83px;
+}
+
+.pharma-phone {
+    margin-left: 28px;
+}
+.pharma-phone {
+    margin-left: 28px;
+}
+
+.pharma-email {
+    margin-left: 36px;
+}
+
+.anchor-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #CECECE;
+} 
+
+.bottom-anchor {
+    text-decoration: none;
+    color: #CECECE;
+}
+
+.name-input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+.email-input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+ 
+}
+.message-input {
+    width: 250px;
+    height: 60px;
+    margin-bottom: 20px;
+ 
+}
+
+#submit-btn {
+    display: flex;
+    border-radius: 0px;
+    padding: 7px 30px;
+    letter-spacing: 0.3px;
+    color: #CECECE;
+    border: 2px solid #CECECE;
+}
+
+#footer-rights {
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #software-products {
+        min-width: 100%;
+    }
+    #software-text {
+        text-align: center;
+    }
+    #mac-desktop {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin: 0 auto;
+    }
+    #nav-logo {
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #software-products {
+        min-width: 100%;
+    }
+    #software-text {
+        text-align: center;
+    }
+    #mac-desktop {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin: 0 auto;
+    }
+    #nav-logo {
+        margin-left: 1px;
+    }
+}

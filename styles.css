@@ -8,7 +8,7 @@ body {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 0.2px;
     margin: 8px;
 }
@@ -58,7 +58,7 @@ body {
 
 #get-started-btn-1 {
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 0px;
     font-size: 18px;
     letter-spacing: 0.5px;
@@ -68,13 +68,14 @@ body {
 
 #get-started-btn-1:hover {
     background-color: #CECECE;
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
    
 }
 
 .heading-inside-img {
-    font-size: 52px;
+    font-size: 50px;
+    font-weight: lighter;
 }
 
 .container-fluid {
@@ -86,13 +87,13 @@ body {
 .link-read-more {
     text-decoration: none!important;
     color: #969292 !important;
-    border: 2px solid #969292;
+    border: 1px solid #969292;
     padding:7px 20px;
 }
 
 .link-read-more:hover {
     color: white!important;
-    border: 2px solid white;
+    border: 1px solid white;
  background-color: #969292;
 }
 
@@ -133,20 +134,20 @@ body {
 
 .title-box-1  h1{
     margin-top: 40px;
-    color: #81abb8;
+    color: #67C049;
 }
 
 .title-box {
     margin-top: 10px;
     margin-bottom: 30px;
-    color: #81abb8;
+    color: #67C049;
 }
 
 #how-it-works-heading {
     font-size: 48px;
     text-align: center;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 50px;
     color: #969292;
 }
 
@@ -158,14 +159,23 @@ body {
  margin-top: 20px;
 }
 
+#iframe-box-first {
+    position: relative;
+    left: 40px
+}
+#iframe-box-second {
+    position: relative;
+    left: 40px
+}
+
 #marketing-container {
     display: flex;
     flex-direction: row;
 }
 
 #iframe-box {
-    margin-bottom: 120px;
- width: 100%;
+ margin-bottom: 120px;
+ width: 88%;
  height: auto;
  background-color: #F4F4F4;
  color: #9e9898;
@@ -271,7 +281,7 @@ body {
 
 #software-text h2 {
     margin-top: 50px;
-    color: #81abb8;
+    color: #76C748;
 }
 
 #software-text p {
@@ -287,7 +297,7 @@ body {
     border-radius: 0px;
     padding: 7px 35px;
     color: #969292;
-    border: 2px solid #969292;
+    border: 1px solid #969292;
     background-color: transparent;
 }
 
@@ -302,7 +312,7 @@ body {
     border-radius: 0px;
     padding: 7px 20px;
     color: #969292;
-    border: 2px solid #969292;
+    border: 1px solid #969292;
     background-color: transparent;
 }
 
@@ -370,7 +380,7 @@ body {
 
 #footer-text {
     margin-left: 35px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.4px;
     
 }
 
@@ -379,18 +389,23 @@ body {
 }
 
 .pharma-address {
-    margin-left: 83px;
+    margin-left: 78px;
 }
 
 .pharma-phone {
     margin-left: 28px;
 }
 .pharma-phone {
-    margin-left: 28px;
+    margin-left: 32px;
 }
 
 .pharma-email {
-    margin-left: 36px;
+    margin-left: 35px;
+}
+
+#faq {
+    position: relative;
+    top: 16px;
 }
 
 .anchor-div {
@@ -403,6 +418,9 @@ body {
 .bottom-anchor {
     text-decoration: none;
     color: #CECECE;
+}
+.bottom-anchor:hover {
+    color: #76C748;
 }
 
 .name-input {
@@ -432,12 +450,12 @@ body {
     padding: 7px 30px;
     letter-spacing: 0.3px;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 #submit-btn:hover {
     background-color: #969292;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 
